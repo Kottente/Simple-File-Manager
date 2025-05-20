@@ -90,6 +90,7 @@ android {
         checkReleaseBuilds = false
         abortOnError = false
     }
+
 }
 
 dependencies {
@@ -98,6 +99,7 @@ dependencies {
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.androidpdfviewer)
     implementation(libs.roottools)
+    // implementation(com.github.Stericson:RootTools:5.0)
     implementation(libs.rootshell)
     implementation(libs.gestureviews)
     implementation(libs.autofittextview)
